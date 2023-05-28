@@ -1,0 +1,191 @@
+body {
+    color: black;
+    font-family: 'Raleway', Bahnschrift;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30%;
+    left: 15%;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 40px;
+    text-transform: capitalize;
+    padding:20px;
+   
+}
+
+
+p {
+    margin: 0.3em;
+    text-align: left;
+}
+
+.error {
+    font-weight: bold;
+    color:red;
+}
+
+.error span{
+    font-size: 0.5em;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    margin-left: 0.5em;
+}
+
+
+a {
+    text-decoration: none;
+
+}
+
+.UPLeft{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#links a {
+    margin: 10px; 
+    color:white;
+}
+
+#links a:hover{
+    color: yellow;
+}
+
+a.buttons {
+    padding: 7px 10px;
+    border: 2px ridge white;
+    border-radius: 100px;
+    text-transform: uppercase;
+    color: yellow;
+}
+    
+
+h1 a.buttons {
+    padding: 5px 7px;
+    font-size: .7em;
+}
+
+a.buttons:hover {
+    background-color: yellow;
+    color: black;
+}
+
+#links a {
+    margin: 10px;
+    color: white;
+}
+
+
+
+
+
+header h1 {
+    font-weight: normal;
+    text-align: center;
+    font-style: normal;
+    z-index: 1;
+}
+
+header h1 em {
+    font-style: normal;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+
+header nav {
+    height: 80px ;
+    background-size: contain;
+    background-image: url(https://st4.depositphotos.com/1760000/20243/v/600/depositphotos_202434918-stock-video-music-equalizer-audio-waves-or.jpg);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    position: fixed;
+    text-transform: uppercase;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    border-bottom: 2px solid yellow;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+section {
+    text-align: center;
+    position: center;
+    height: 650px;
+}
+
+  
+
+    section h1 {
+        margin-top: 80px;
+        margin-bottom: 100px;
+        font-size: 2.5em;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        border-top: 2px solid yellow;
+        background-color: black;
+        color: yellow;
+        text-align:center;
+        text-transform:capitalize;
+        padding:20px;
+        
+    }
+
+    footer p{
+        text-align: center;
+    }
+    
+#menu {
+    display: none;
+}
+
+    #menu div {
+        width: 25px;
+        height: 3px;
+        background-color: yellow;
+        margin: 5px 0;
+    }
+
+@media (max-width: 850px) {
+
+    #links {
+        display: none;
+    }
+
+}

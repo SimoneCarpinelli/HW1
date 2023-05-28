@@ -1,0 +1,242 @@
+body{
+    
+    margin: 0;
+    font-family: 'Raleway', Bahnschrift;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav {
+    max-width: 100%;
+    height: 80px ;
+    background-size: contain;
+    background-image: url(https://st4.depositphotos.com/1760000/20243/v/600/depositphotos_202434918-stock-video-music-equalizer-audio-waves-or.jpg);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    position: fixed;
+    text-transform: uppercase;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    border-bottom: 2px solid yellow;
+    justify-content: space-between;
+}
+
+
+
+
+
+.UPLeft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+nav .logo{
+    margin: 7px;
+}
+
+nav a{
+    text-align: center;
+    color: white;
+    background-color:rgba(0,0,0,0.5);
+}
+
+nav a:hover{
+    color: yellow;
+}
+
+a.buttons {
+    padding: 7px 10px;
+    border: 2px ridge white;
+    border-radius: 100px;
+    color: yellow;
+}
+ a.buttons:hover {
+    background-color: yellow;
+    color: black;
+}
+
+
+.hidden{
+    display: none;
+}
+
+#menu {
+    margin-right: 10px;
+    display: none;
+}
+
+    #menu div {
+        width: 25px;
+        height: 3px;
+        background-color: yellow;
+        margin: 5px 0;
+    }
+
+@media (max-width: 800px) {
+    .link , .buttons{
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+    article #container{
+        flex-direction: column;
+    }
+    #riquadro{
+        margin: 20px;
+
+    }
+    
+    
+}
+
+@media (max-width: 1000px) {
+
+    article #container{
+        flex-direction: column;
+    }
+    #riquadro{
+        margin: 20px;
+    }
+    
+    
+}
+
+#box{
+    
+    max-width: 100%;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+section{
+    height: auto;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    font-weight: bold;
+    color:red;
+}
+
+.error div{
+    font-size: 0.5em;
+}
+
+article a{
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+article a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+#container{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px; 
+    
+}
+
+
+
+
+
+
+#riquadro{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+.blocco{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+
+.blocco img{
+    width: 50%;
+    margin:5px;
+    position: relative;
+    border: 5px solid yellow;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#subButton{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-transform: uppercase;
+}
+#subButton:hover{
+    color: yellow;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+input {
+    margin-left: 0.5em;
+}
+
+footer {
+    border-top: 2px solid yellow;
+    background-color: black;
+    color: yellow;
+    text-align:center ; 
+    text-transform:capitalize;
+    padding:20px;
+    
+}
+footer p{
+    text-align: center;
+}

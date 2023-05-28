@@ -1,0 +1,116 @@
+body {
+    color: black;
+    font-family: 'Relaway', Bahnschrift;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+nav {
+    height: 80px ;
+    background-size: contain;
+    background-image: url(https://st4.depositphotos.com/1760000/20243/v/600/depositphotos_202434918-stock-video-music-equalizer-audio-waves-or.jpg);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    position: fixed;
+    text-transform: uppercase;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    border-bottom: 2px solid yellow;
+    justify-content: space-between;    
+}
+  
+.UPLeft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav .logo{
+    margin: 7px;
+}
+
+nav a{
+    text-align: center;
+    color: white;
+    background-color:rgba(0,0,0,0.5);
+}
+
+nav a:hover{
+    color: yellow;
+}
+
+a.buttons {
+    padding: 7px 10px;
+    border: 2px ridge white;
+    border-radius: 100px;
+    color: yellow;
+}
+ a.buttons:hover {
+    background-color: yellow;
+    color: black;
+}
+
+
+section{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+section div{
+    display: flex;
+    flex-direction: row;
+
+    width: 70%;
+
+    padding: 20px;
+    border-bottom: 1px solid rgba(0,0,0, 0.3);
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    text-transform:capitalize ;
+    border-bottom: 0;
+    justify-content: center;
+    margin-left: 10%;
+}
+.details h3{
+    margin: 0;
+}
+
+
+section img{
+    width: 50%;
+    
+    border: 3px solid yellow;
+}
+
+.details p{
+    margin: 0;
+    text-align: left;
+}
+
+
+footer {
+
+
+    width: 100%;
+    margin-top: 50px;
+    border-top: 2px solid yellow;
+    background-color: black;
+    color: yellow;
+    text-align:center;
+    text-transform:capitalize;
+    padding:20px;
+    
+}
